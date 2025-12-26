@@ -45,3 +45,50 @@ button i {
 input, select {
     padding: 0.25rem 0.5rem;
 }
+
+.hide {
+    display: none;
+}
+
+/*ToDo header*/
+.todo-container {
+    max-width: 450px;
+    margin: 3rem auto ;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #008D81;
+}
+
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* To Do form*/
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-form p, 
+#edit-form p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: 0.3rem; 
+}
+
+#cancel-edit.btn {
+    margin-top: 1rem;
+} 
